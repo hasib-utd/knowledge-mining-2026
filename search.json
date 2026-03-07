@@ -7,6 +7,13 @@
     "text": "Hello! I am Hasib, a PhD student in Public Affairs at The University of Texas at Dallas. My work sits at the intersection of technology and governance, specifically focusing on how AI impacts public service delivery.\nThis website showcases my coursework, research, and data analysis projects."
   },
   {
+    "objectID": "index.html#intro",
+    "href": "index.html#intro",
+    "title": "Muhammad Al Hasib",
+    "section": "",
+    "text": "Hello! I am Hasib, a PhD student in Public Affairs at The University of Texas at Dallas. My work sits at the intersection of technology and governance, specifically focusing on how AI impacts public service delivery.\nThis website showcases my coursework, research, and data analysis projects."
+  },
+  {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Muhammad Al Hasib",
@@ -18,7 +25,7 @@
     "href": "index.html#research-interests",
     "title": "Muhammad Al Hasib",
     "section": "Research Interests",
-    "text": "Research Interests\n\nBehavioral Public Administration & Collaborative Governance\nAI in Public Service (Administrative vs. Democratic Values)\nEthical Climate & Organizational Commitment\nHealthcare and Police Administration"
+    "text": "Research Interests\n\nBehavioral Public Administration\nAI in Public Service\nPublic Trust in Institutions\nHealthcare and Police Administration"
   },
   {
     "objectID": "index.html#ongoing-research",
@@ -46,6 +53,6 @@
     "href": "assignments.html#assignment-list",
     "title": "EPPS 6323 Assignments",
     "section": "Assignment List",
-    "text": "Assignment List\n\nAssignment 01: Introduction to R & Quarto\n\nInitial setup and exploratory data analysis (EDA).\n\nAssignment 02: Linear Regression & Model Selection\n\nPredicting outcomes using subset selection and regularization techniques.\n\nAssignment 03: Classification Methods\n\nImplementing Logistic Regression, LDA, and QDA on public sector datasets.\n\nAssignment 04: Resampling & Cross-Validation\n\nEstimating test error using Leave-One-Out Cross-Validation (LOOCV) and k-fold CV."
+    "text": "Assignment List\n\nAssignment 01: Brush up R and Quarto\n\nInitial setup and exploratory data analysis (EDA).\n\nAssignment 02: Prompt exercise\n\nPredicting outcomes using subset selection and regularization techniques.\n\nAssignment 03: \n\nImplementing Logistic Regression, LDA, and QDA on public sector datasets.\n\nAssignment 04: \n\nEstimating test error using Leave-One-Out Cross-Validation (LOOCV) and k-fold CV."
   }
 ]
