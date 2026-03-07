@@ -4,35 +4,28 @@
     "href": "index.html",
     "title": "Muhammad Al Hasib",
     "section": "",
-    "text": "(images/IMG_6763.PNG){width=200px}\nHello! I am Hasib, a PhD student in Public Affairs\nThis website contains: My coursework, Research, and Data analysis projects"
+    "text": "Hello! I am Hasib, a PhD student in Public Affairs at The University of Texas at Dallas. My work sits at the intersection of technology and governance, specifically focusing on how AI impacts public service delivery.\nThis website showcases my coursework, research, and data analysis projects."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Muhammad Al Hasib",
     "section": "Education",
-    "text": "Education\nPhD in Public and Nonprofit Management- (Currently Studying) The University of Texas at Dallas MSC Data Analytics and Research- (2025) The University of Texas at Dallas MSS in Public Administration- (2019) University of Barishal BSS in Public Administration- (2018) University of Barishal"
+    "text": "Education\n\nPhD in Public and Nonprofit Management | The University of Texas at Dallas (In Progress)\nMS in Social Data Analytics and Research | The University of Texas at Dallas (2025)\nMSS in Public Administration | University of Barishal (2019)\nBSS in Public Administration | University of Barishal (2018)"
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Muhammad Al Hasib",
     "section": "Research Interests",
-    "text": "Research Interests\n\nBehavioral Public Administration\nCollaborative Governance\nPolicy Synergies and Conflicts\nPolitical Institutions and Economic Development\nHealthcare and Police Administration"
+    "text": "Research Interests\n\nBehavioral Public Administration & Collaborative Governance\nAI in Public Service (Administrative vs. Democratic Values)\nEthical Climate & Organizational Commitment\nHealthcare and Police Administration"
   },
   {
     "objectID": "index.html#ongoing-research",
     "href": "index.html#ongoing-research",
     "title": "Muhammad Al Hasib",
     "section": "Ongoing Research",
-    "text": "Ongoing Research\n\nAI adoption in public services: Testing trade-offs and Balancing Administrative and Democratic Values\nThe Mediating Role of Person-Organization Fit between Ethical Climate and Organizational Commitment in the Public Sector: Evidence from the Caribbean\nBehavioural Insights in Public Administration: Leveraging Nudges to Improve Public Policy Implementation\nImpacts of Education Policy across Community Types in the United States: An Interrupted Time Series Analysis of Indiana’s Voluntary Open Enrollment\nSurvival in Danger: Exploring the interplay of Crisis Leaders’ Decision-Making Behavior and Cultural Intelligence (CQ) in Street-Level Service Providers across Sectors"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "Muhammad Al Hasib",
-    "section": "Links",
-    "text": "Links\n\nGitHub Profile\nPersonal Website\nLinkedIn"
+    "text": "Ongoing Research\n\n\n\n\n\n\nNoteAI & Public Values\n\n\n\n\n\nAI adoption in public services: Testing trade-offs and Balancing Administrative and Democratic Values. This project examines the tension between efficiency and accountability.\n\n\n\n\n\n\n\n\n\nNoteEthical Climate\n\n\n\n\n\nThe Mediating Role of Person-Organization Fit: Evidence from the Caribbean public sector regarding ethical climate and organizational commitment.\n\n\n\n\n\n\n\n\n\nNoteEducation Policy\n\n\n\n\n\nImpacts of Education Policy across Community Types: An Interrupted Time Series (ITS) analysis of Indiana’s Voluntary Open Enrollment using NAEP data."
   },
   {
     "objectID": "about.html",
@@ -46,13 +39,13 @@
     "href": "assignments.html",
     "title": "EPPS 6323 Assignments",
     "section": "",
-    "text": "Below are my assignments for EPPS 6323 – Knowledge Mining"
+    "text": "Below are my assignments for EPPS 6323 – Knowledge Mining, showcasing various data science and machine learning applications in public policy."
   },
   {
     "objectID": "assignments.html#assignment-list",
     "href": "assignments.html#assignment-list",
     "title": "EPPS 6323 Assignments",
     "section": "Assignment List",
-    "text": "Assignment List\n\nAssignment 01\nAssignment 02\nAssignment 03\nAssignment 04"
+    "text": "Assignment List\n\nAssignment 01: Introduction to R & Quarto\n\nInitial setup and exploratory data analysis (EDA).\n\nAssignment 02: Linear Regression & Model Selection\n\nPredicting outcomes using subset selection and regularization techniques.\n\nAssignment 03: Classification Methods\n\nImplementing Logistic Regression, LDA, and QDA on public sector datasets.\n\nAssignment 04: Resampling & Cross-Validation\n\nEstimating test error using Leave-One-Out Cross-Validation (LOOCV) and k-fold CV."
   }
 ]
