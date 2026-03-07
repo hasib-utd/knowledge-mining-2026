@@ -7,6 +7,13 @@
     "text": "Profile Photo"
   },
   {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Muhammad Al Hasib",
+    "section": "Education",
+    "text": "Education\nPhD in Public and Nonprofit Management- (Currently Studying) The University of Texas at Dallas\nMSC Data Analytics and Research- (2025) The University of Texas at Dallas\nMSS in Public Administration- (2019) University of Barishal\nBSS in Public Administration- (2018) University of Barishal"
+  },
+  {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Muhammad Al Hasib",
@@ -21,73 +28,31 @@
     "text": "Ongoing Research\n\nAI adoption in public services: Testing trade-offs and Balancing Administrative and Democratic Values\nThe Mediating Role of Person-Organization Fit between Ethical Climate and Organizational Commitment in the Public Sector: Evidence from the Caribbean\nBehavioural Insights in Public Administration: Leveraging Nudges to Improve Public Policy Implementation\nImpacts of Education Policy across Community Types in the United States: An Interrupted Time Series Analysis of Indiana’s Voluntary Open Enrollment\nSurvival in Danger: Exploring the interplay of Crisis Leaders’ Decision-Making Behavior and Cultural Intelligence (CQ) in Street-Level Service Providers across Sectors"
   },
   {
-    "objectID": "index.html#assignments",
-    "href": "index.html#assignments",
-    "title": "Muhammad Al Hasib",
-    "section": "Assignments",
-    "text": "Assignments\n├ Assignment 01 ├ Assignment 02"
-  },
-  {
-    "objectID": "index.html#cv",
-    "href": "index.html#cv",
-    "title": "Muhammad Al Hasib",
-    "section": "CV",
-    "text": "CV"
-  },
-  {
     "objectID": "index.html#links",
     "href": "index.html#links",
     "title": "Muhammad Al Hasib",
     "section": "Links",
-    "text": "Links\n\nGitHub"
+    "text": "Links\n\nGitHub Profile\nPersonal Website\nLinkedIn"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Muhammad Al Hasib is a PhD student studying public affairs and data analysis."
+    "text": "I am a PhD student in Public and Nonprofit Management, driven by a deep interest in research, policy analysis, and public management. My academic journey has been shaped by a passion for understanding complex governance systems, the impact of public policy, and the relationship between institutions and the people they serve.\nCurrently, I work as a Teaching Assistant and actively contribute to the research areas of education policy, social equity, behavioral public administration, and social welfare. I am particularly interested in using evidence-based approaches to evaluate programs and design inclusive, effective policies.\nMy professional experience spans from BRAC University and Stanford University to Oxfam GB. Also, my experience encompasses academic writing, data analysis, and cross-cultural collaboration. I’m also committed to mentoring students and contributing to an engaged educational environment.\nI welcome connections and conversations around research collaboration, program and policy development, and consulting opportunities."
   },
   {
-    "objectID": "about.html#biography",
-    "href": "about.html#biography",
-    "title": "About Me",
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "EPPS 6323 Assignments",
     "section": "",
-    "text": "Muhammad Al Hasib is a PhD student studying public affairs and data analysis."
+    "text": "Below are my assignments for EPPS 6323 – Knowledge Mining"
   },
   {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "About Me",
-    "section": "Research Interests",
-    "text": "Research Interests\nBehavioral Public Administration Collaborative Governance Policy Synergies and Conflicts Political Institutions and Economic Development Healthcare and Police Administration"
-  },
-  {
-    "objectID": "about.html#research",
-    "href": "about.html#research",
-    "title": "About Me",
-    "section": "Research",
-    "text": "Research\nThis page will contain my research projects and publications."
-  },
-  {
-    "objectID": "about.html#cv",
-    "href": "about.html#cv",
-    "title": "About Me",
-    "section": "CV",
-    "text": "CV\nYou can download my CV here. Download CV"
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nGitHub: https://github.com/hasib-utd"
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "courses",
-    "section": "",
-    "text": "Current Courses\n\nKnowledge Mining\nQuantitative Method\n\n\n\nPast Courses\n\nResearch Design\nSurvey Research"
+    "objectID": "assignments.html#assignment-list",
+    "href": "assignments.html#assignment-list",
+    "title": "EPPS 6323 Assignments",
+    "section": "Assignment List",
+    "text": "Assignment List\n\nAssignment 01\nAssignment 02\nAssignment 03\nAssignment 04"
   }
 ]
