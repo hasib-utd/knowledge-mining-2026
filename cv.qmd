@@ -1,0 +1,12 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download my full CV (PDF)](MD. AL HASIB-RESUME-UTD.pdf)
+
+<iframe
+  src="MD. AL HASIB-RESUME-UTD.pdf"
+  width="100%"
+  height="800px"
+  style="border: none;">
+</iframe>

@@ -1,22 +1,31 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "PersonalWebsite"
+  title: "Muhammad Al Hasib"
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+        
+      - text: About
+        href: about.qmd
+        
+      - text: Research
+        href: research.qmd
+
+      - text: CV
+        href: cv.qmd
+
+      - text: EPPS 6323 Assignments
+        href: assignments.qmd
+
+  page-footer:
+    center: "© 2026 Muhammad Al Hasib"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
-
-
-

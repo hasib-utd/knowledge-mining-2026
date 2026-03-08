@@ -1,0 +1,18 @@
+---
+title: "EPPS 6323 Assignments"
+---
+
+Below are the links to my completed assignments and labs for **EPPS 6323 – Knowledge Mining**.
+
+## Assignments
+* [**Assignment 01: Brush up R and Quarto**](Assignment01.qmd) 
+    * Initial setup and exploratory data analysis (EDA) using the TEDS2016 dataset.
+* [**Assignment 02: Prompt Exercise**](Assignment02.qmd)
+    * Design prompts to conduct a structured systematic literature review.
+* [**Assignment 03: **](Assignment03.qmd)
+    * 
+* [**Assignment 04: **](Assignment04.qmd)
+    * 
+## Labs
+* [**Lab 01: R Programming Basics I**](Lab01.qmd)
+* [**Lab 02: R Programming Basics II**](Lab02.qmd)
