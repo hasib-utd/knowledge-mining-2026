@@ -159,9 +159,8 @@ window.Quarto = {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">1. Introduction</a></li>
   <li><a href="#data-loading-and-preparation" id="toc-data-loading-and-preparation" class="nav-link" data-scroll-target="#data-loading-and-preparation">2. Data Loading and Preparation</a></li>
-  <li><a href="#loading-the-teds-2016-dataset" id="toc-loading-the-teds-2016-dataset" class="nav-link" data-scroll-target="#loading-the-teds-2016-dataset">Loading the TEDS 2016 dataset</a></li>
-  <li><a href="#assigning-labels-to-the-tondu-variable" id="toc-assigning-labels-to-the-tondu-variable" class="nav-link" data-scroll-target="#assigning-labels-to-the-tondu-variable">Assigning labels to the Tondu variable</a></li>
-  <li><a href="#barchart" id="toc-barchart" class="nav-link" data-scroll-target="#barchart">Barchart</a></li>
+  <li><a href="#loading-the-dataset" id="toc-loading-the-dataset" class="nav-link" data-scroll-target="#loading-the-dataset">Loading the dataset</a></li>
+  <li><a href="#assigning-labels-to-tondu-variable" id="toc-assigning-labels-to-tondu-variable" class="nav-link" data-scroll-target="#assigning-labels-to-tondu-variable">Assigning labels to Tondu variable</a></li>
   </ul>
 </nav>
     </div>
@@ -206,19 +205,19 @@ window.Quarto = {
 <section id="data-loading-and-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="data-loading-and-preparation">2. Data Loading and Preparation</h2>
 <p>We load the dataset directly from the provided source and handle initial variable labeling.</p>
-<p>#| label: load-data #| message: false library(haven) library(tidyverse)</p>
+<p>#| label: load-data #| message: false</p>
+<p>library(haven) library(tidyverse)</p>
 </section>
-<section id="loading-the-teds-2016-dataset" class="level1">
-<h1>Loading the TEDS 2016 dataset</h1>
-<p>TEDS_2016 &lt;- read_dta(“<a href="https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true">https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true</a>”)</p>
+<section id="loading-the-dataset" class="level1">
+<h1>Loading the dataset</h1>
+<p>TEDS_2016 &lt;- read_dta(“https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true”)</p>
 </section>
-<section id="assigning-labels-to-the-tondu-variable" class="level1">
-<h1>Assigning labels to the Tondu variable</h1>
-<p>TEDS_2016<span class="math inline">\(Tondu &lt;- factor(TEDS_2016\)</span>Tondu, levels = c(1, 2, 3, 4, 5, 6, 9), labels = c(“Unification now”, “Status quo, unif. in future”, “Status quo, decide later”, “Status quo forever”, “Status quo, indep. in future”, “Independence now”, “No response”)) ## 3. Exploratory Data Analysis #| label: tondu-analysis # Frequency Table table(TEDS_2016$Tondu)</p>
-</section>
-<section id="barchart" class="level1">
-<h1>Barchart</h1>
-<p>ggplot(TEDS_2016, aes(x = Tondu)) + geom_bar(fill = “steelblue”) + theme_minimal() + labs(title = “Distribution of Tondu Variable”, x = “Attitude”, y = “Frequency”) + coord_flip()</p>
+<section id="assigning-labels-to-tondu-variable" class="level1">
+<h1>Assigning labels to Tondu variable</h1>
+<p>TEDS_2016<span class="math inline">\(Tondu &lt;- factor(
+  TEDS_2016\)</span>Tondu, levels = c(1,2,3,4,5,6,9), labels = c( “Unification now”, “Status quo, unif. in future”, “Status quo, decide later”, “Status quo forever”, “Status quo, indep. in future”, “Independence now”, “No response” ) )</p>
+<p>#| label: tondu-table table(TEDS_2016$Tondu)</p>
+<p>#| label: tondu-plot ggplot(TEDS_2016, aes(x = Tondu)) + geom_bar(fill = “steelblue”) + theme_minimal() + labs( title = “Distribution of Tondu Variable”, x = “Attitude”, y = “Frequency” ) + coord_flip()</p>
 
 
 </section>

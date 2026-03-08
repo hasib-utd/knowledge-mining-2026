@@ -12,37 +12,44 @@ format:
 This assignment serves as a refresh for R programming and Quarto, utilizing the TEDS2016 dataset to explore political attitudes in Taiwan.
 
 ## 2. Data Loading and Preparation
+
 We load the dataset directly from the provided source and handle initial variable labeling.
 
 ```{r}
 #| label: load-data
 #| message: false
+
 library(haven)
 library(tidyverse)
 
-# Loading the TEDS 2016 dataset
-TEDS_2016 <- read_dta("[https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true](https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true)")
+# Loading the dataset
+TEDS_2016 <- read_dta("https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true")
 
-# Assigning labels to the Tondu variable
-TEDS_2016$Tondu <- factor(TEDS_2016$Tondu, 
-                         levels = c(1, 2, 3, 4, 5, 6, 9),
-                         labels = c("Unification now", 
-                                    "Status quo, unif. in future", 
-                                    "Status quo, decide later", 
-                                    "Status quo forever", 
-                                    "Status quo, indep. in future", 
-                                    "Independence now", 
-                                    "No response"))
-## 3. Exploratory Data Analysis
-#| label: tondu-analysis
-# Frequency Table
+# Assigning labels to Tondu variable
+TEDS_2016$Tondu <- factor(
+  TEDS_2016$Tondu,
+  levels = c(1,2,3,4,5,6,9),
+  labels = c(
+    "Unification now",
+    "Status quo, unif. in future",
+    "Status quo, decide later",
+    "Status quo forever",
+    "Status quo, indep. in future",
+    "Independence now",
+    "No response"
+  )
+)
+
+#| label: tondu-table
 table(TEDS_2016$Tondu)
 
-# Barchart
+#| label: tondu-plot
 ggplot(TEDS_2016, aes(x = Tondu)) +
   geom_bar(fill = "steelblue") +
   theme_minimal() +
-  labs(title = "Distribution of Tondu Variable",
-       x = "Attitude",
-       y = "Frequency") +
+  labs(
+    title = "Distribution of Tondu Variable",
+    x = "Attitude",
+    y = "Frequency"
+  ) +
   coord_flip()
