@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hasib-utd.github.io/knowledge-mining-2026/index.html</loc>
-    <lastmod>2026-03-07T06:54:09.639Z</lastmod>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/research.html</loc>
+    <lastmod>2026-03-08T04:35:20.466Z</lastmod>
   </url>
   <url>
-    <loc>https://hasib-utd.github.io/knowledge-mining-2026/assignments.html</loc>
-    <lastmod>2026-03-07T07:01:04.554Z</lastmod>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/Lab01.html</loc>
+    <lastmod>2026-03-08T04:07:32.523Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/cv.html</loc>
+    <lastmod>2026-03-07T07:12:11.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/assignment01.html</loc>
+    <lastmod>2026-03-08T05:31:37.577Z</lastmod>
   </url>
   <url>
     <loc>https://hasib-utd.github.io/knowledge-mining-2026/about.html</loc>
     <lastmod>2026-03-07T06:11:19.938Z</lastmod>
   </url>
   <url>
-    <loc>https://hasib-utd.github.io/knowledge-mining-2026/cv.html</loc>
-    <lastmod>2026-03-07T07:12:11.032Z</lastmod>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/assignments.html</loc>
+    <lastmod>2026-03-08T05:31:56.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/index.html</loc>
+    <lastmod>2026-03-08T05:32:08.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hasib-utd.github.io/knowledge-mining-2026/Lab02.html</loc>
+    <lastmod>2026-03-08T04:11:17.451Z</lastmod>
   </url>
 </urlset>
