@@ -17,6 +17,9 @@ website:
 
       - text: CV
         href: cv.qmd
+        
+      - text: Coursework
+        href: coursework.qmd
 
       - text: EPPS 6323 Assignments
         href: assignments.qmd
@@ -29,3 +32,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    code-fold: true

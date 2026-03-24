@@ -1,8 +1,8 @@
 ---
-title: "EPPS 6323 Assignments"
+title: "EPPS 6323 – Knowledge Mining"
 ---
 
-Below are the links to my coursework for **EPPS 6323 – Knowledge Mining**.
+This page contains assignments and labs completed for **EPPS 6323 – Knowledge Mining**.
 
 ## Assignments
 

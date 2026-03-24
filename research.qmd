@@ -1,6 +1,20 @@
 ---
 title: "Research"
 ---
-## Ongoing Projects
-* AI adoption in public services.
-* Ethical climate and organizational commitment.
+
+## Ongoing Research
+
+::: {.callout-note collapse="true"}
+## AI & Public Values
+**AI adoption in public services:** Testing trade-offs and Balancing Administrative and Democratic Values. This project examines the tension between efficiency and accountability.
+:::
+
+::: {.callout-note collapse="true"}
+## Ethical Climate
+**The Mediating Role of Person-Organization Fit:** Evidence from the Caribbean public sector regarding ethical climate and organizational commitment.
+:::
+
+::: {.callout-note collapse="true"}
+## Education Policy
+**Impacts of Education Policy across Community Types:** An Interrupted Time Series (ITS) analysis of Indiana’s Voluntary Open Enrollment using NAEP data.
+:::

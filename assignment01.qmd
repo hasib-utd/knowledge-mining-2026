@@ -1,48 +1,76 @@
 ---
-title: "Assignment 1: Brush up R and Quarto"
-author: "Md Al Hasib"
-date: "2026-03-07"
-format: 
-  html:
-    code-fold: true
-    toc: true
+title: "Assignment 01: Brush up R and Quarto"
+format: html
 ---
 
-## 1. Introduction
-This assignment serves as a refresh for R programming and Quarto, utilizing the TEDS2016 dataset to explore political attitudes in Taiwan.
+## EPPS 6323 – Knowledge Mining  
+**Assignment 01**
 
-## 2. Data Loading and Preparation
-We load the dataset directly from the provided source and handle initial variable labeling.
+This assignment reviews basic R programming and performs exploratory data analysis (EDA) using the **TEDS2016 dataset**.
+
+---
+
+## 1. Review of R Programming
+
+To refresh R programming skills, the following resources were reviewed:
+
+- Introduction to R (University of Southern California)
+- EPPS Math and Coding Camp materials
+- Chapters 3–7 of *R for Data Science (R4DS)*
+
+---
+
+## 2. Lab Exercises
+
+The following lab exercises were completed and published on this website.
+
+- [Lab 01: R Programming Basics I](Lab01.html)
+- [Lab 02: R Programming Basics II](Lab02.html)
+
+---
+
+## 3. Load the TEDS2016 Dataset
+
+The dataset was loaded directly from GitHub using the **haven** package.
 
 ```{r}
-#| label: load-data
-#| message: false
 library(haven)
-library(tidyverse)
 
-# Loading the TEDS 2016 dataset
-TEDS_2016 <- read_dta("[https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true](https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true)")
+TEDS_2016 <- haven::read_dta(
+"https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true"
+)
 
-# Assigning labels to the Tondu variable
-TEDS_2016$Tondu <- factor(TEDS_2016$Tondu, 
-                         levels = c(1, 2, 3, 4, 5, 6, 9),
-                         labels = c("Unification now", 
-                                    "Status quo, unif. in future", 
-                                    "Status quo, decide later", 
-                                    "Status quo forever", 
-                                    "Status quo, indep. in future", 
-                                    "Independence now", 
-                                    "No response"))
-## 3. Exploratory Data Analysis
-#| label: tondu-analysis
-# Frequency Table
+head(TEDS_2016)
+
+Problems encountered when working with the dataset
+
+Several issues were encountered:
+
+Missing values in multiple variables
+
+Some variables are stored as labelled values
+
+Need to convert variables to numeric or factor types before analysis
+
+Understanding variable meanings required consulting documentation
+
+These issues required cleaning and transforming the dataset before analysis.
+
+---
+  
+## 3. Handling Missing Values
+
+TEDS_clean <- na.omit(TEDS_2016)
+
+TEDS_2016$Tondu <- as.numeric(TEDS_2016$Tondu)
+
 table(TEDS_2016$Tondu)
 
-# Barchart
-ggplot(TEDS_2016, aes(x = Tondu)) +
-  geom_bar(fill = "steelblue") +
-  theme_minimal() +
-  labs(title = "Distribution of Tondu Variable",
-       x = "Attitude",
-       y = "Frequency") +
-  coord_flip()
+table(TEDS_2016$Tondu)
+
+barplot(
+table(TEDS_2016$Tondu),
+main = "Distribution of Tondu",
+xlab = "Tondu Categories",
+ylab = "Frequency"
+)

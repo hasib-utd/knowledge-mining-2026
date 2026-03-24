@@ -1,15 +1,19 @@
 ---
-title: "EPPS 6323 Assignments"
+title: "Coursework"
 ---
 
-Below are the links to my coursework for **EPPS 6323 – Knowledge Mining**.
+Below are selected coursework projects from my **PhD program at UT Dallas**.
 
-## Assignments
+## Courses
+
+### EPPS 6323 – Knowledge Mining
+
+Assignments and labs completed for this course.
 
 - [Assignment 01: Brush up R and Quarto](Assignment01.html)
 - [Assignment 02: Prompt Exercise](Assignment02.html)
 
-## Labs
+**Labs**
 
 - [Lab 01: R Programming Basics I](Lab01.html)
 - [Lab 02: R Programming Basics II](Lab02.html)

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Md Al Hasib">
-<meta name="dcterms.date" content="2026-03-07">
 
-<title>Assignment 1: Brush up R and Quarto – Muhammad Al Hasib</title>
+<title>Assignment 01: Brush up R and Quarto – Muhammad Al Hasib</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -138,6 +136,10 @@ window.Quarto = {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./coursework.html"> 
+<span class="menu-text">Coursework</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./assignments.html"> 
 <span class="menu-text">EPPS 6323 Assignments</span></a>
   </li>  
@@ -157,11 +159,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">1. Introduction</a></li>
-  <li><a href="#data-loading-and-preparation" id="toc-data-loading-and-preparation" class="nav-link" data-scroll-target="#data-loading-and-preparation">2. Data Loading and Preparation</a></li>
-  <li><a href="#loading-the-teds-2016-dataset" id="toc-loading-the-teds-2016-dataset" class="nav-link" data-scroll-target="#loading-the-teds-2016-dataset">Loading the TEDS 2016 dataset</a></li>
-  <li><a href="#assigning-labels-to-the-tondu-variable" id="toc-assigning-labels-to-the-tondu-variable" class="nav-link" data-scroll-target="#assigning-labels-to-the-tondu-variable">Assigning labels to the Tondu variable</a></li>
-  <li><a href="#barchart" id="toc-barchart" class="nav-link" data-scroll-target="#barchart">Barchart</a></li>
+  <li><a href="#epps-6323-knowledge-mining" id="toc-epps-6323-knowledge-mining" class="nav-link active" data-scroll-target="#epps-6323-knowledge-mining">EPPS 6323 – Knowledge Mining</a></li>
+  <li><a href="#review-of-r-programming" id="toc-review-of-r-programming" class="nav-link" data-scroll-target="#review-of-r-programming">1. Review of R Programming</a></li>
+  <li><a href="#lab-exercises" id="toc-lab-exercises" class="nav-link" data-scroll-target="#lab-exercises">2. Lab Exercises</a></li>
+  <li><a href="#load-the-teds2016-dataset" id="toc-load-the-teds2016-dataset" class="nav-link" data-scroll-target="#load-the-teds2016-dataset">3. Load the TEDS2016 Dataset</a></li>
+  <li><a href="#handling-missing-values" id="toc-handling-missing-values" class="nav-link" data-scroll-target="#handling-missing-values">3. Handling Missing Values</a></li>
   </ul>
 </nav>
     </div>
@@ -170,26 +172,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignment 1: Brush up R and Quarto</h1>
+<h1 class="title">Assignment 01: Brush up R and Quarto</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Md Al Hasib </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 7, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -199,26 +189,53 @@ window.Quarto = {
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
-<p>This assignment serves as a refresh for R programming and Quarto, utilizing the TEDS2016 dataset to explore political attitudes in Taiwan.</p>
+<section id="epps-6323-knowledge-mining" class="level2">
+<h2 class="anchored" data-anchor-id="epps-6323-knowledge-mining">EPPS 6323 – Knowledge Mining</h2>
+<p><strong>Assignment 01</strong></p>
+<p>This assignment reviews basic R programming and performs exploratory data analysis (EDA) using the <strong>TEDS2016 dataset</strong>.</p>
+<hr>
 </section>
-<section id="data-loading-and-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="data-loading-and-preparation">2. Data Loading and Preparation</h2>
-<p>We load the dataset directly from the provided source and handle initial variable labeling.</p>
-<p>#| label: load-data #| message: false library(haven) library(tidyverse)</p>
+<section id="review-of-r-programming" class="level2">
+<h2 class="anchored" data-anchor-id="review-of-r-programming">1. Review of R Programming</h2>
+<p>To refresh R programming skills, the following resources were reviewed:</p>
+<ul>
+<li>Introduction to R (University of Southern California)</li>
+<li>EPPS Math and Coding Camp materials</li>
+<li>Chapters 3–7 of <em>R for Data Science (R4DS)</em></li>
+</ul>
+<hr>
 </section>
-<section id="loading-the-teds-2016-dataset" class="level1">
-<h1>Loading the TEDS 2016 dataset</h1>
-<p>TEDS_2016 &lt;- read_dta(“<a href="https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true">https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true</a>”)</p>
+<section id="lab-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="lab-exercises">2. Lab Exercises</h2>
+<p>The following lab exercises were completed and published on this website.</p>
+<ul>
+<li><a href="Lab01.html">Lab 01: R Programming Basics I</a></li>
+<li><a href="Lab02.html">Lab 02: R Programming Basics II</a></li>
+</ul>
+<hr>
 </section>
-<section id="assigning-labels-to-the-tondu-variable" class="level1">
-<h1>Assigning labels to the Tondu variable</h1>
-<p>TEDS_2016<span class="math inline">\(Tondu &lt;- factor(TEDS_2016\)</span>Tondu, levels = c(1, 2, 3, 4, 5, 6, 9), labels = c(“Unification now”, “Status quo, unif. in future”, “Status quo, decide later”, “Status quo forever”, “Status quo, indep. in future”, “Independence now”, “No response”)) ## 3. Exploratory Data Analysis #| label: tondu-analysis # Frequency Table table(TEDS_2016$Tondu)</p>
+<section id="load-the-teds2016-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="load-the-teds2016-dataset">3. Load the TEDS2016 Dataset</h2>
+<p>The dataset was loaded directly from GitHub using the <strong>haven</strong> package.</p>
+<p>library(haven)</p>
+<p>TEDS_2016 &lt;- haven::read_dta( “https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true” )</p>
+<p>head(TEDS_2016)</p>
+<p>Problems encountered when working with the dataset</p>
+<p>Several issues were encountered:</p>
+<p>Missing values in multiple variables</p>
+<p>Some variables are stored as labelled values</p>
+<p>Need to convert variables to numeric or factor types before analysis</p>
+<p>Understanding variable meanings required consulting documentation</p>
+<p>These issues required cleaning and transforming the dataset before analysis.</p>
+<hr>
 </section>
-<section id="barchart" class="level1">
-<h1>Barchart</h1>
-<p>ggplot(TEDS_2016, aes(x = Tondu)) + geom_bar(fill = “steelblue”) + theme_minimal() + labs(title = “Distribution of Tondu Variable”, x = “Attitude”, y = “Frequency”) + coord_flip()</p>
+<section id="handling-missing-values" class="level2">
+<h2 class="anchored" data-anchor-id="handling-missing-values">3. Handling Missing Values</h2>
+<p>TEDS_clean &lt;- na.omit(TEDS_2016)</p>
+<p>TEDS_2016<span class="math inline">\(Tondu &lt;- as.numeric(TEDS_2016\)</span>Tondu)</p>
+<p>table(TEDS_2016$Tondu)</p>
+<p>table(TEDS_2016$Tondu)</p>
+<p>barplot( table(TEDS_2016$Tondu), main = “Distribution of Tondu”, xlab = “Tondu Categories”, ylab = “Frequency” )</p>
 
 
 </section>
